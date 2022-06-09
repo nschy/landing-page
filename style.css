@@ -33,7 +33,7 @@ img {
 .secondary {
     color: lightgrey;
     font-size: 18px;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 .hero {
@@ -56,11 +56,90 @@ img {
     column-gap: 50px;
 }
 
-button {
+.button-1 {
     background-color: #3882f6;
     color: white;
     padding: 5px 34px;
     margin: 10px 0px;
     border-radius: 12px;
     border: 0px;
+}
+
+.information-header-text {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.section-3 {
+    display: flex;
+    padding: 50px 300px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-4 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+    padding: 50px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin: 10px 0px;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 34px;
+    margin: 10px 0px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    color: white;
+    border-radius: 8px;
+}
+
+.section-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 35px 200px;
+    color: white;
 }
